@@ -21,7 +21,7 @@
 - 📊 [Evaluation](#evaluation)
 - 🏆 [Benchmark Results](#-benchmark-results)
 - 🗂️ [Project Structure](#️-project-structure)
-- 👩‍👩‍👧‍👦 [Contributors](#-contributors)
+- 👥 [Contributors](#-contributors)
 - 📄 [License](#-license)
 - 🎓 [Citation](#-citation)
 - 📞 [Contact](#-contact)
@@ -34,13 +34,12 @@
 
 Recent studies have delved into constructing autonomous agents capable of performing complex Graphical User Interface (GUI)-based computer tasks, with the potential to revolutionize human-computer interaction. Despite encouraging results, existing efforts mainly focus on **short-term interactions** and rely on **outcome-only verification**, thereby limiting their scalability in real-world GUI applications that demand long-horizon task decomposition and execution.
 
-In this work, we introduce **VeriGUI**, a novel verifiable long-chain GUI dataset designed to facilitate the development and evaluation of generalist GUI agents operating in realistic computer environments. Our dataset emphasizes two critical dimensions: 
+In this work, we introduce **VeriGUI**, a novel verifiable long-chain GUI dataset designed to facilitate the development and evaluation of generalist GUI agents operating in realistic computer environments. Our dataset emphasizes two critical dimensions:
 
 - (1) **🔗 Long-chain complexity**, with tasks decomposed into a sequence of interdependent subtasks spanning hundreds of steps, explicitly designed to allow any subtask serve as a valid starting point;
 - (2) **✅ subtask-level verifiability**, which enables diverse exploration strategies within each subtask, while ensuring that each subtask-level goal remain verifiable and consistent.
 
 The dataset consists of GUI task trajectories spanning both desktop and web, **annotated by human experts**. Extensive experiments on VeriGUI using various agents with different foundation models reveal significant performance gaps in handling long-horizon tasks, highlighting the need for more robust planning and decision-making capabilities in GUI agents.
-
 
 <div align="center">
   <img src="images/intro_hd.png" alt="VeriGUI Dataset Overview" width="800">
@@ -58,14 +57,14 @@ The dataset consists of GUI task trajectories spanning both desktop and web, **a
 
 ### 📊 Dataset Statistics
 
-| Metric                         | Value                              |
-| ------------------------------ | ---------------------------------- |
+| Metric                         | Value             |
+| ------------------------------ | ----------------- |
 | **Total Tasks**          | 130 (in progress) |
-| **Total Steps**          | 587                               |
-| **Avg Steps per Task**   | 4.5                                |
-| **Total Actions**        | 27,873                            |
-| **Avg Actions per Task** | 214.4                              |
-| **Avg Actions per Step** | 49.8                               |
+| **Total Steps**          | 587               |
+| **Avg Steps per Task**   | 4.5               |
+| **Total Actions**        | 27,873            |
+| **Avg Actions per Task** | 214.4             |
+| **Avg Actions per Step** | 49.8              |
 
 ### 🎨 Task Categories
 
@@ -82,7 +81,6 @@ The dataset consists of GUI task trajectories spanning both desktop and web, **a
 - 📄 Office Productivity (Word, Excel, PowerPoint)
 - ⚙️ System Utilities (Settings, File Management)
 - 🛠️ Professional Tools (VS Code, Adobe Applications)
-
 
 ## 🚀 Installation
 
@@ -148,7 +146,6 @@ Then, you can use `calc_avg.py` to calculate the average score of the evaluation
 python calc_avg.py --input_file output.json
 ```
 
-
 ## 🗂️ Project Structure
 
 ```
@@ -165,13 +162,11 @@ agent-workflow-devkit/
 └── utils.py             # Utility functions
 ```
 
-
-
 ## 📄 License
 
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
-## 👩‍👩‍👧‍👦 Contributors
+## 👥 Contributors
 
 We thank all contributors who have helped make VeriGUI possible. Special thanks to the research team and community members who provided valuable feedback and improvements.
 
