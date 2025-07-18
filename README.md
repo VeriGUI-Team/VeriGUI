@@ -2,7 +2,7 @@
 
 <div align="center">
 <a href=''><img src='https://img.shields.io/badge/arXiv-xxxx.xxxxx-%23B31B1B?logo=arxiv'></a> 
-<a href=''><img src='https://img.shields.io/badge/Hugging%20Face-Datasets-blue?style=flat&logo=huggingface&logoColor=%23FFD21E'></a>
+<a href='https://huggingface.co/datasets/2077AIDataFoundation/VeriGUI'><img src='https://img.shields.io/badge/Hugging%20Face-Datasets-blue?style=flat&logo=huggingface&logoColor=%23FFD21E'></a>
 <a href='LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-green.svg'></a>
 </div>
 
@@ -46,41 +46,36 @@ The dataset consists of GUI task trajectories spanning both desktop and web, **a
   <p><em>An overview of the VeriGUI dataset.</em></p>
 </div>
 
-## ✨ Features
+## ✨ Key Features
 
-### 🎯 Core Capabilities
 
-- **Long-chain complexity**:  Each tasks consist of interdependent subtasks that span hundreds of steps, with each subtask serving as a valid starting point
-- **Subtask-level Verification**: Enable diverse exploration strategies while ensuring that the goal of each subtask is verifiable and consistent.
-- **Human-Annotated**: Expert-curated trajectories ensuring high quality
-- **Diverse Domains**: Both desktop applications and web environments
+### 🔗 Long-Chain Complexity
+- Tasks require 2-15 interdependent steps with hundreds of GUI actions
+- Complex workflows spanning multiple applications and web pages
+- Realistic task dependencies that require adaptive reasoning and planning
+- Tasks mirror real-world computer usage patterns
 
-### 📊 Dataset Statistics
 
-| Metric                         | Value             |
-| ------------------------------ | ----------------- |
-| **Total Tasks**          | 130 (in progress) |
-| **Total Steps**          | 587               |
-| **Avg Steps per Task**   | 4.5               |
-| **Total Actions**        | 27,873            |
-| **Avg Actions per Task** | 214.4             |
-| **Avg Actions per Step** | 49.8              |
+### ✅ Subtask-Level Verifiability
+- Fine-grained evaluation at each intermediate step, not just final outcomes
+- Verifiable goals for each step while supporting diverse exploration strategies
+- Open-ended interaction within steps - agents can choose different paths to achieve the same goal
+- Detailed supervision signals for better error diagnosis and agent improvement
 
-### 🎨 Task Categories
 
-**Web Tasks (Deep Research)**:
+### 🌐 Multi-Environment Coverage
+- Web environments: Various websites, online services, and web applications
+- Desktop environments: Office software, operating systems, and professional tools (TODO)
+- Cross-platform task transitions and interactions
 
-- 🔬 Scientific and Academic Research
-- 💰 Finance and Economics
-- 💻 Technology and Innovation
-- 🎭 Arts and Entertainment
-- 🏛️ Social Policy and Sustainability
 
-**Desktop Tasks (Application Operation)**:
+### 👥 Human-Expert Annotation
+- All trajectories are carefully created and annotated by human experts
+- High-quality task instructions and step-level annotations
+- Verified task feasibility and realistic workflow patterns
 
-- 📄 Office Productivity (Word, Excel, PowerPoint)
-- ⚙️ System Utilities (Settings, File Management)
-- 🛠️ Professional Tools (VS Code, Adobe Applications)
+
+
 
 ## 🚀 Installation
 
@@ -162,13 +157,7 @@ agent-workflow-devkit/
 └── utils.py             # Utility functions
 ```
 
-## 📄 License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Contributors
-
-We thank all contributors who have helped make VeriGUI possible. Special thanks to the research team and community members who provided valuable feedback and improvements.
 
 ## 🎓 Citation
 
@@ -189,6 +178,16 @@ For questions, suggestions, or collaborations, please feel free to:
 
 - 🐛 Issues: [GitHub Issues](https://github.com/your-repo/agent-workflow-devkit/issues)
 - 💬 Discussions: [GitHub Discussions](https://github.com/your-repo/agent-workflow-devkit/discussions)
+
+## 👥 Contributors
+
+We thank all contributors who have helped make VeriGUI possible. Special thanks to the research team and community members who provided valuable feedback and improvements.
+
+
+## 📄 License
+
+This project is licensed under the Apache 2.0 License.
+
 
 ---
 
