@@ -1,7 +1,7 @@
 <h1 align="center"> VeriGUI: Verifiable Long-Chain GUI Dataset</h1>
 
 <div align="center">
-<a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red.svg?style=for-the-badge&logo=arxiv&logoColor=white'></a> 
+<a href='https://github.com/VeriGUI-Team/VeriGUI/blob/main/paper.pdf'><img src='https://img.shields.io/badge/Paper-Arxiv-red.svg?style=for-the-badge&logo=arxiv&logoColor=white'></a> 
 <a href='https://huggingface.co/datasets/2077AIDataFoundation/VeriGUI'><img src='https://img.shields.io/badge/Dataset-Hugging_Face-yellow.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E'></a>
 <a href='LICENSE'><img src='https://img.shields.io/badge/Code_License-Apache_2.0-blue.svg?style=for-the-badge'></a>
 </div>
@@ -164,11 +164,10 @@ agent-workflow-devkit/
 If you find VeriGUI useful in your research, please cite our paper:
 
 ```bibtex
-@article{verigui2024,
+@article{verigui2025,
   title={VeriGUI: Verifiable Long-Chain GUI Dataset},
-  author={Authors},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2024}
+  author={VeriGUI Team},
+  year={2025}
 }
 ```
 
