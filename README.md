@@ -175,8 +175,7 @@ If you find VeriGUI useful in your research, please cite our paper:
 
 For questions, suggestions, or collaborations, please feel free to:
 
-- 🐛 Issues: [GitHub Issues](https://github.com/your-repo/agent-workflow-devkit/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-repo/agent-workflow-devkit/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/VeriGUI-Team/VeriGUI/issues)
 
 ## 👥 Contributors
 
