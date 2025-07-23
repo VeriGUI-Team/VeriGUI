@@ -163,7 +163,7 @@ agent-workflow-devkit/
 ## 💻 Visualize Tool
 
 ### Usage
-- Open [VeriGUI.2077ai.org](VeriGUI.2077ai.org)
+- Open [VeriGUI.2077ai.org](https://VeriGUI.2077ai.org)
 - Select the corresponding task data folder
 - View the visualization results
 
