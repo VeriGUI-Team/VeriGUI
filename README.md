@@ -43,8 +43,8 @@ In this work, we introduce **VeriGUI**, a novel verifiable long-chain GUI datase
 The dataset consists of GUI task trajectories spanning both desktop and web, **annotated by human experts**. Extensive experiments on VeriGUI using various agents with different foundation models reveal significant performance gaps in handling long-horizon tasks, highlighting the need for more robust planning and decision-making capabilities in GUI agents.
 
 <div align="center">
-  <img src="images/intro_hd.png" alt="VeriGUI Dataset Overview" width="800">
-  <p><em>An overview of the VeriGUI dataset.</em></p>
+  <img src="images/data.png" alt="VeriGUI Dataset Overview" width="800">
+  <p><em>The VeriGUI dataset consists of various GUI tasks spanning both desktop and web.</em></p>
 </div>
 
 ## ✨ Key Features
@@ -76,7 +76,10 @@ The dataset consists of GUI task trajectories spanning both desktop and web, **a
 - High-quality task instructions and subtask-level annotations
 - Verified task feasibility and realistic workflow patterns
 
-
+<div align="center">
+  <img src="images/intro_hd.png" alt="VeriGUI Dataset Overview" width="800">
+  <p><em>An overview of the VeriGUI dataset.</em></p>
+</div>
 
 
 ## 🚀 Installation
