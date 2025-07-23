@@ -9,7 +9,7 @@
 > [!NOTE]
 > This work is still in progress and additional data will be included in a future version.
 
----
+
 
 ## 🧭 Contents
 
@@ -29,7 +29,7 @@
 
 ## 🌟 Updates
 
-- [Jul 21, 2025] 🔥 We have released the first batch of 130 Web task trajectories!
+- `[Jul 21, 2025]` 🔥 We have released the first batch of 130 Web task trajectories!
 
 ## 📖 Overview
 
@@ -51,16 +51,16 @@ The dataset consists of GUI task trajectories spanning both desktop and web, **a
 
 
 ### 🔗 Long-Chain Complexity
-- Tasks require 2-15 interdependent steps with hundreds of GUI actions
+- Tasks require 2-15 interdependent subtasks with hundreds of GUI actions
 - Complex workflows spanning multiple applications and web pages
 - Realistic task dependencies that require adaptive reasoning and planning
 - Tasks mirror real-world computer usage patterns
 
 
 ### ✅ Subtask-Level Verifiability
-- Fine-grained evaluation at each intermediate step, not just final outcomes
-- Verifiable goals for each step while supporting diverse exploration strategies
-- Open-ended interaction within steps - agents can choose different paths to achieve the same goal
+- Fine-grained evaluation at each intermediate subtask, not just final outcomes
+- Verifiable goals for each subtask while supporting diverse exploration strategies
+- Open-ended interaction within subtasks - agents can choose different paths to achieve the same goal
 - Detailed supervision signals for better error diagnosis and agent improvement
 
 
@@ -70,9 +70,9 @@ The dataset consists of GUI task trajectories spanning both desktop and web, **a
 - Cross-platform task transitions and interactions
 
 
-### 👥 Human-Expert Annotation
+### 🧑‍🎨 Human-Expert Annotation
 - All trajectories are carefully created and annotated by human experts
-- High-quality task instructions and step-level annotations
+- High-quality task instructions and subtask-level annotations
 - Verified task feasibility and realistic workflow patterns
 
 
@@ -103,11 +103,11 @@ The dataset of VeriGUI is located at [veriGUI.json](data/veriGUI.json). The form
 ```json
 [
   {
-    "id": "1", // index id
-    "name": "V1_3", // name of the task
-    "type": "global", // type of the task, global or causal
+    "id": "1",              // index id
+    "name": "V1_3",         // name of the task
+    "type": "global",       // type of the task, global or causal
     "instruction": "xxxxx", // instruction for the task
-    "answer": "xxxxx", // expected answer for the task, in JSON format
+    "answer": "xxxxx",      // expected answer for the task, in JSON format
   },
   ......
 ]
@@ -118,13 +118,13 @@ The evaluation script `evaluate.py` can be used to evaluate the performance of a
 ```json
 [
   {
-    "id": "1", // index id
-    "name": "V1_3", // name of the task
-    "type": "global", // type of the task, global or causal
+    "id": "1",              // index id
+    "name": "V1_3",         // name of the task
+    "type": "global",       // type of the task, global or causal
     "instruction": "xxxxx", // instruction for the task
-    "answer": "xxxxx", // expected answer for the task, in JSON format
-    "prediction": "xxxxx", // agent's predicted result
-    "nsteps": 10, // number of steps taken by the agent
+    "answer": "xxxxx",      // expected answer for the task, in JSON format
+    "prediction": "xxxxx",  // agent's predicted result
+    "nsteps": 10,           // number of steps taken by the agent
   },
   ......
 ]
@@ -144,6 +144,8 @@ python calc_avg.py --input_file output.json
 
 ## 🗂️ Project Structure
 
+The directory structure of the project is defined as follows:
+
 ```
 agent-workflow-devkit/
 ├── agents/                 # Agent implementations
@@ -161,7 +163,7 @@ agent-workflow-devkit/
 ## 💻 Visualize Tool
 
 ### Usage
-- Open VeriGUI.2077ai.org
+- Open [VeriGUI.2077ai.org](VeriGUI.2077ai.org)
 - Select the corresponding task data folder
 - View the visualization results
 
