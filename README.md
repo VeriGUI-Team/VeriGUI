@@ -15,11 +15,12 @@
 
 - 🌟 [Updates](#-updates)
 - 📖 [Overview](#-overview)
-- ✨ [Key Features](#-features)
-- 🚀 [Installation](#installation)
-- 🤖 [Running Agents](#running-agents)
-- 📊 [Evaluation](#evaluation)
-- 🗂️ [Project Structure](#️-project-structure)
+- ✨ [Key Features](#-key-features)
+- 🚀 [Installation](#-installation)
+- 🤖 [Running Agents](#-running-agents)
+- 📊 [Evaluation](#-evaluation)
+- 🗂️ [Project Structure](#-project-structure)
+- 💻 [Visualize Tool](#-visualize-tool)
 - 🎓 [Citation](#-citation)
 - 📞 [Contact](#-contact)
 - 👥 [Contributors](#-contributors)
@@ -141,7 +142,7 @@ Then, you can use `calc_avg.py` to calculate the average score of the evaluation
 python calc_avg.py --input_file output.json
 ```
 
-## 🗂️ Project Structure
+## 🗂️ Project
 
 ```
 agent-workflow-devkit/
@@ -157,7 +158,8 @@ agent-workflow-devkit/
 └── utils.py             # Utility functions
 ```
 
-## Visualize Tool
+## 💻 Visualize Tool
+
 ### Usage
 - Open VeriGUI.2077ai.org
 - Select the corresponding task data folder
