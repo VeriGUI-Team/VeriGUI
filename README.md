@@ -3,7 +3,7 @@
 <div align="center">
 <a href='https://github.com/VeriGUI-Team/VeriGUI/blob/main/paper.pdf'><img src='https://img.shields.io/badge/Paper-Arxiv-red.svg?style=for-the-badge&logo=arxiv&logoColor=white'></a> 
 <a href='https://huggingface.co/datasets/2077AIDataFoundation/VeriGUI'><img src='https://img.shields.io/badge/Dataset-Hugging_Face-yellow.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E'></a>
-<a href='LICENSE'><img src='https://img.shields.io/badge/Code_License-Apache_2.0-blue.svg?style=for-the-badge'></a>
+<a href='LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge'></a>
 </div>
 
 > [!NOTE]
