@@ -51,27 +51,28 @@ The dataset consists of GUI task trajectories spanning both desktop and web, **a
 
 
 ### 🔗 Long-Chain Complexity
-- Tasks require 2-15 interdependent subtasks with hundreds of GUI actions
+
+- Tasks require **2-15 interdependent subtasks** with hundreds of GUI actions
 - Complex workflows spanning multiple applications and web pages
 - Realistic task dependencies that require adaptive reasoning and planning
 - Tasks mirror real-world computer usage patterns
 
-
 ### ✅ Subtask-Level Verifiability
-- Fine-grained evaluation at each intermediate subtask, not just final outcomes
+
+- **Fine-grained evaluation** at each intermediate subtask, not just final outcomes
 - Verifiable goals for each subtask while supporting diverse exploration strategies
 - Open-ended interaction within subtasks - agents can choose different paths to achieve the same goal
 - Detailed supervision signals for better error diagnosis and agent improvement
 
-
 ### 🌐 Multi-Environment Coverage
-- Web environments: Various websites, online services, and web applications
-- Desktop environments: Office software, operating systems, and professional tools (TODO)
+
+- **Web environments**: Various websites, online services, and web applications
+- **Desktop environments**: Office software, operating systems, and professional tools (TODO)
 - Cross-platform task transitions and interactions
 
-
 ### 🧑‍🎨 Human-Expert Annotation
-- All trajectories are carefully created and annotated by human experts
+
+- All trajectories carefully created and annotated by human experts
 - High-quality task instructions and subtask-level annotations
 - Verified task feasibility and realistic workflow patterns
 
@@ -149,15 +150,15 @@ The directory structure of the project is defined as follows:
 ```
 agent-workflow-devkit/
 ├── agents/                 # Agent implementations
-│   └── browseruse.py      # Browser-use agent example
-├── data/                  # Dataset files
-│   └── veriGUI.json      # Main dataset
-├── evaluated/             # Evaluation results
-├── predictions/           # Model predictions
-├── evaluate.py           # Evaluation script
-├── batch_evaluate.py     # Batch evaluation
-├── calc_avg.py          # Calculate averages
-└── utils.py             # Utility functions
+│   └── browseruse.py       # Browser-use agent example
+├── data/                   # Dataset files
+│   └── veriGUI.json        # Main dataset
+├── evaluated/              # Evaluation results
+├── predictions/            # Model predictions
+├── evaluate.py             # Evaluation script
+├── batch_evaluate.py       # Batch evaluation
+├── calc_avg.py             # Calculate averages
+└── utils.py                # Utility functions
 ```
 
 ## 💻 Visualize Tool
