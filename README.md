@@ -142,7 +142,7 @@ Then, you can use `calc_avg.py` to calculate the average score of the evaluation
 python calc_avg.py --input_file output.json
 ```
 
-## 🗂️ Project
+## 🗂️ Project Structure
 
 ```
 agent-workflow-devkit/
