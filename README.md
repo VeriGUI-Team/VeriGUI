@@ -15,20 +15,20 @@
 
 - 🌟 [Updates](#-updates)
 - 📖 [Overview](#-overview)
-- ✨ [Features](#-features)
+- ✨ [Key Features](#-features)
 - 🚀 [Installation](#installation)
 - 🤖 [Running Agents](#running-agents)
 - 📊 [Evaluation](#evaluation)
-- 🏆 [Benchmark Results](#-benchmark-results)
 - 🗂️ [Project Structure](#️-project-structure)
-- 👥 [Contributors](#-contributors)
-- 📄 [License](#-license)
 - 🎓 [Citation](#-citation)
 - 📞 [Contact](#-contact)
+- 👥 [Contributors](#-contributors)
+- 📄 [License](#-license)
+
 
 ## 🌟 Updates
 
-<!-- Updates will be added here -->
+- [Jul 21, 2025] 🔥 We have released the first batch of 130 Web task trajectories!
 
 ## 📖 Overview
 
@@ -157,6 +157,17 @@ agent-workflow-devkit/
 └── utils.py             # Utility functions
 ```
 
+## Visualize Tool
+### Usage
+- Open VeriGUI.2077ai.org
+- Select the corresponding task data folder
+- View the visualization results
+
+### Features
+- Interactive event timeline visualization
+- Support for various event types (MOUSE_DRAG, MOUSE_UP, TAB_CHANGE, etc.)
+- Video playback synchronization
+- Jump to specific actions functionality
 
 
 ## 🎓 Citation
