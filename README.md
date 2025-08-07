@@ -2,7 +2,7 @@
   <img src="data/VeriGUI.png" alt="VeriGUI banner" width="800"/>
 </p>
 
-<h1 align="center"> VeriGUI: Verifiable Long-Chain GUI Dataset</h1>
+<h1 align="center"> VeriGUI: Verifiable Long-Chain Multi-Domain GUI Dataset</h1>
 
 <div align="center">
 <a href='https://github.com/VeriGUI-Team/VeriGUI/blob/main/paper.pdf'><img src='https://img.shields.io/badge/Paper-Arxiv-red.svg?style=for-the-badge&logo=arxiv&logoColor=white'></a> 
