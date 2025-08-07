@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="data/VeriGUI.png" alt="VeriGUI banner" width="800"/>
+</p>
+
 <h1 align="center"> VeriGUI: Verifiable Long-Chain GUI Dataset</h1>
 
 <div align="center">
