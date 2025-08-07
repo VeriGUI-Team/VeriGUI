@@ -5,7 +5,7 @@
 <h1 align="center"> Verifiable Long-Chain Multi-Domain GUI Dataset</h1>
 
 <div align="center">
-<a href='https://github.com/VeriGUI-Team/VeriGUI/blob/main/paper.pdf'><img src='https://img.shields.io/badge/Paper-Arxiv-red.svg?style=for-the-badge&logo=arxiv&logoColor=white'></a> 
+<a href='https://huggingface.co/papers/2508.04026'><img src='https://img.shields.io/badge/Paper-Arxiv-red.svg?style=for-the-badge&logo=arxiv&logoColor=white'></a> 
 <a href='https://huggingface.co/datasets/2077AIDataFoundation/VeriGUI'><img src='https://img.shields.io/badge/Dataset-Hugging_Face-yellow.svg?style=for-the-badge&logo=huggingface&logoColor=%23FFD21E'></a>
 <a href='LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge'></a>
 </div>
@@ -189,7 +189,8 @@ If you find VeriGUI useful in your research, please cite our paper:
 ```bibtex
 @article{verigui2025,
   title={VeriGUI: Verifiable Long-Chain GUI Dataset},
-  author={VeriGUI Team},
+  author={Shunyu Liu, Minghao Liu, Huichi Zhou, Zhenyu Cui, Yang Zhou, Yuhao Zhou, Wendong Fan, Ge Zhang, Jiajun Shi, Weihao Xuan, Jiaxing Huang, Shuang Luo, Fang Wu, Heli Qi, Qingcheng Zeng, Ziqi Ren, Jialiang Gao, Jindi Lv, Junjie Wang, Aosong Feng, Heng Zhou, Wangchunshu Zhou, Zhenfei Yin, Wenlong Zhang, Guohao Li, Wenhao Yu, Irene Li, Lei Ma, Lei Bai, Qunshu Lin, Mingli Song, Dacheng Tao},
+  journal={arXiv preprint arXiv:2508.04026},
   year={2025}
 }
 ```
